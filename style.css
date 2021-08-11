@@ -1,26 +1,50 @@
-.heading
+.dj_web_app
 {
-  font-size: 23px;
-  width: 100%;
-  margin: 0px;
+    width: 100%;
+    margin: 0px;    
+    font-size: 24px;
 }
 .note
 {
-  font-size: 15px;
-  color: black;
+    font-size: 15px;
+    color: black;
+}
+.speed_disk_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#speed_btn, #volume_btn
+{
+    color: black;
+    font-weight: bold;
+    margin: 40px;
+}
+.speed
+{
+    float: left;
+}
+.volume
+{
+    float: right;
+}
+.volume_disk_img
+{
+    border-radius: 100px;
+    width: 150px;
 }
 body
 {
-  background-size: cover;	
+    background-size: cover;
 }
-  #song
-  {
-  	font-size: 23px;
-  	margin: 15px;
-  }
-    canvas 
-  {
-    border:5px solid black;
-    border-radius:20px;
-    box-shadow: 5px 5px 5px #73cfd8;
-  }
+.play
+{
+    font-size: 20px;
+    width: 100px;
+}
+canvas
+{
+       border: blanchedalmond;
+       border-radius: 5px;
+       box-shadow: 5px 5px 8px black;
+}
